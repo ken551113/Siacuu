@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blog_single"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kenlee.siacuu.activity.BlogSingleActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/add_btn"
+                android:id="@+id/singleBlogImage"
+                android:background="@color/cardview_light_background"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false" />
+
+            <TextView
+                android:text="SingleBlogTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleBlogTitle"
+                android:textColor="@color/black"
+                android:textStyle="normal|bold"
+                android:padding="15dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="SingleBlogDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleBlogDesc"
+                android:textColor="@color/black"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/deletBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="Delet Post"
+        android:textColor="@android:color/white" />
+</LinearLayout>

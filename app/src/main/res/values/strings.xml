@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SIACUU</string>
+    <string name="home">街區活動</string>
+    <string name="detial">一日店長</string>
+    <string name="map">社群地圖</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="post_desc">Post Desc</string>
+    <string name="post_title">Post Title</string>
+    <string name="style_json">style_json</string>
+    <string name="post_time">post_time</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "816861042887",
+    "firebase_url": "https://siacuu-40203.firebaseio.com",
+    "project_id": "siacuu-40203",
+    "storage_bucket": "siacuu-40203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816861042887:android:ee2e69953ece2b9a",
+        "android_client_info": {
+          "package_name": "com.kenlee.siacuu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816861042887-mev4qo1f6j4gfsgg0fvjinssp3oavkit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenlee.siacuu",
+            "certificate_hash": "c4bded021be29236311209daf9b0d1a5d3f3526b"
+          }
+        },
+        {
+          "client_id": "816861042887-ef3fns1n1a34hf07f8jdp0u2fe8aev9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqcWwTTXi2Js4N4-N1K_BDBhmyQyqwhWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816861042887-ef3fns1n1a34hf07f8jdp0u2fe8aev9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

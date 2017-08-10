@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_fragment"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/store_fragment"
+        android:icon="@drawable/ic_settings_remote_black_24dp"
+        android:title="@string/detial"/>
+    <item
+        android:id="@+id/map_fragment"
+        android:icon="@drawable/ic_grid_on_black_24dp"
+        android:title="@string/map"/>
+
+</menu>

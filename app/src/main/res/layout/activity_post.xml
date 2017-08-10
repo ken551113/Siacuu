@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.kenlee.siacuu.activity.PostActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:background="@color/cardview_light_background"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/add_btn" />
+
+            <EditText
+                android:id="@+id/titleEdt"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/organizationEdt"
+                android:layout_alignLeft="@+id/organizationEdt"
+                android:layout_alignRight="@+id/organizationEdt"
+                android:layout_alignStart="@+id/organizationEdt"
+                android:layout_below="@+id/imageSelect"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Post Title..."
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:layout_width="368dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="20dp" />
+
+            <EditText
+                android:id="@+id/organizationEdt"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/titleEdt"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Post Organization..."
+                android:inputType="textMultiLine"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/locationEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/organizationEdt"
+                android:layout_alignLeft="@+id/organizationEdt"
+                android:layout_alignRight="@+id/organizationEdt"
+                android:layout_alignStart="@+id/organizationEdt"
+                android:layout_below="@+id/organizationEdt"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Post Location..."
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <EditText
+                android:id="@+id/timeEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/locationEdt"
+                android:layout_alignLeft="@+id/locationEdt"
+                android:layout_alignRight="@+id/locationEdt"
+                android:layout_alignStart="@+id/locationEdt"
+                android:layout_below="@+id/locationEdt"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Post Time..."
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+            <EditText
+                android:id="@+id/descEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Post Desc..."
+                android:padding="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="textMultiLine" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/background"
+        android:text="Submit Post"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

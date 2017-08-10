@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_store"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kenlee.siacuu.activity.AddStoreActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/add_btn"
+            android:id="@+id/imageSelect"
+            android:scaleType="centerCrop"
+            android:background="@color/cardview_light_background"
+            android:adjustViewBounds="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/titleEdt"
+            android:background="@drawable/input_outline"
+            android:layout_marginTop="20dp"
+            android:id="@+id/organizationEdt"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:hint="Store Time..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/titleEdt"
+            android:background="@drawable/input_outline"
+            android:padding="15dp"
+            android:hint="Store Title..."
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:layout_margin="20dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:text="Submit Post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn"
+        android:background="@color/background"
+        android:textColor="@android:color/white" />
+</LinearLayout>
